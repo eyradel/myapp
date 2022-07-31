@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 import time
 st.st_page_config(
 title="My App"
-favicon ="logo.png"
+
 
 
 )
