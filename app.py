@@ -18,7 +18,7 @@ hide_streamlit_style = """
             <html><body><p></p><body/></html>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
+st.header("DATA MODELLING APPLICATION")
 st.markdown("https://delaeyram.com")
 def linear():
     file = st.file_uploader("Load Your Dataset",['csv','xlsx'])
@@ -140,11 +140,4 @@ def multi():
 
 
 st.sidebar.image("logo.png")
-sidebar = st.sidebar.header("Menu")
-slider = st.sidebar.selectbox("Type",['Linear','Multivariate'])
-if slider=="Linear":
-    st.header("Linear")
-    linear()
-elif slider=="Multivariate":
-    st.header("Multivariate")
-    multi()
+multi()
