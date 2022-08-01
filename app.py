@@ -21,7 +21,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.header("DATA MODELLING APPLICATION")
 st.markdown("https://delaeyram.com")
 def linear():
-    file = st.file_uploader("Load Your Dataset",['csv','xlsx'])
+    file = st.file_uploader("Load Your Dataset",['csv'])
     if file is not None:
 
 
