@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
@@ -17,7 +18,7 @@ hide_streamlit_style = """
             <html><body><p></p><body/></html>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-st.header("Built By Eyram Dela")
+
 st.markdown("https://delaeyram.com")
 def linear():
     file = st.file_uploader("Load Your Dataset",['csv','xlsx'])
